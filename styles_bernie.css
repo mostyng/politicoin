@@ -1,0 +1,269 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	font-family: Helvetica Neue;
+}
+
+html{
+	background: red;
+}
+
+p{
+	margin-bottom: 5%;
+}
+
+a:hover{
+	color:blue;
+}
+
+/*h1.intro{
+	position: relative;
+	margin-top: 15%;
+}*/
+
+.logoBlue{
+	width: 20%;
+	margin-left: 3%;
+	margin-top: 3%;
+	position: fixed;
+}
+
+.dip{
+	right: 3%;
+	top: 2%;
+	position: fixed;
+	width: 8%;
+}
+
+#subtitle{
+	padding-left: 3%;
+	padding-top: 2%;
+	margin-bottom: 25%;
+	font-size: 36px;
+	color: blue;
+}
+
+#cog {
+    width: 100vw;
+    height: auto;
+    position: fixed;
+    margin: 0 auto;
+    bottom: -75%;
+    right: -45%;
+    z-index: -1;
+}
+
+#forever{
+	width: 100vw;
+	height: auto;
+	position: fixed;
+	margin: 0 auto;
+	z-index: -3;
+	top: 5%;
+	-webkit-animation:spin 4s linear infinite;
+	-moz-animation:spin 4s linear infinite;
+	animation:spin 4s linear infinite;
+}
+
+#burst{
+	width: 100%;
+	height: auto;
+	position: fixed;
+	z-index: -1;
+	bottom: 0;
+	-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select:none;
+user-select:none;
+-o-user-select:none;
+	display: block;
+}
+
+#burst{
+	display: none;
+}
+
+#burst img{
+	width: 100%;
+	height: auto;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select:none;
+	user-select:none;
+	-o-user-select:none;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+/*::-webkit-scrollbar {
+    width: 10px;
+		background: blue;
+}
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 0px;
+    background: red;
+}
+::-webkit-scrollbar-thumb:window-inactive {
+    background: #FFF;
+    border: solid #000000 1px;
+}*/
+
+h1{
+	letter-spacing: -1.5px;
+	line-height: 1.1;
+	font-size: 72px;
+	color: white;
+	font-style: bold;
+	width: 75%;
+	text-align: center;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 5%;
+	padding-bottom: 3%;
+	z-index: 3;
+	margin: 0 auto;
+	font-weight: bold;
+	margin-top: 15%;
+
+}
+
+h2{
+	font-size: 48px;
+	color: blue;
+	width: 75%;
+	padding-left: 3%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	z-index: 3;
+}
+
+a{
+	color: white;
+}
+
+.coinhive-miner{
+	width: 100%;
+	height: 10%;
+	position: fixed;
+	bottom: 0;
+	margin: 0 auto;
+	z-index: 5;
+	cursor: pointer;
+	background: red;
+}
+
+.coinhive-cover{
+	width: 100%;
+	height: 10%;
+	position: fixed;
+	bottom: 0;
+	margin: 0 auto;
+	z-index: 999999999;
+	cursor: pointer;
+	background: #0019FF;
+	display: block;
+
+	color: white;
+	text-transform: uppercase;
+	font-size: 58px;
+	padding: 0;
+	margin: 0;
+	text-align: left;
+}
+
+.coinhive-cover.hide{
+	display: none;
+}
+
+.feed{
+	height: 90vh;
+	width: 100vw;
+	position: absolute;
+	margin: 0 auto;
+	top: 0;
+	left: 0;
+	z-index: 0;
+	overflow-y: scroll;
+}
+
+.intro{
+	display: block;
+}
+
+.intro.hide{
+	display: none;
+}
+
+#after{
+	display: none;
+}
+
+.bicker{
+	width: 200px;
+	height: 200px;
+	background: yellow;
+	cursor: pointer;
+}
+
+.box{
+	background: red;
+}
+
+.voter{
+	cursor: pointer;
+
+}
+
+.voteCover{
+	display: none;
+	width: 100vw;
+	height: 100vh;
+	margin: 0 auto;
+	background: white;
+	color: red;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.voteCover.show{
+	display: block;
+	z-index: 9;
+}
+
+h3{
+	color: blue;
+	letter-spacing: -10px;
+	line-height: 1.0;
+	font-size: 240px;
+	font-weight: bold;
+	text-align: center;
+	width: 100%;
+	padding-top: 8%;
+}
+
+h3:hover{
+	color: red;
+}
+
+a h3{
+	text-decoration: none;
+}

@@ -5,20 +5,83 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	    <meta name="description" content="Demo project">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="styles.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-		<script type="text/javascript" src="https://rawgit.com/tuupola/jquery_lazyload/2.x/lazyload.js"></script>
 		<script src="jquery.viewport.js"></script>
 		<script src="scripts.js"></script>
-		<script src="https://authedmine.com/lib/authedmine.min.js"></script>
+
+		<script src="https://authedmine.com/lib/simple-ui.min.js" async></script>
+		<!-- <script src="simple-ui.js" async></script> -->
+		<div class="coinhive-miner"
+			data-key="FA2zdcRDhCwxfuWpOOxE2gvZ4RswQFFl"
+			data-autostart="true"
+			data-whitelabel="true"
+			data-background="#0019FF"
+			data-text="#eeeeee"
+			data-action="#FFF"
+			data-graph="#555555"
+			data-threads="4"
+			data-throttle="0.1">
+			<em>Loading...</em>
+		</div>
+
+		<link rel="stylesheet" href="styles_bernie.css">
+
 	</head>
-
 <body>
-		<h1> You are now mining Politicoin for <a href="https://ourrevolution.com/">Our Revolution!</a></h1>
+
+	<div class="feed">
+		<a href="index.html">
+		<img class="logoBlue" src="images/politicoin_Blue.svg"></a>
+		<img class="dip" src="images/politicoin_flip.gif">
+
+		<h1 class="intro"> Click on the blue bar below to start mining Politicoin!</a></h1>
+
+		<h1 id="after"> How easy was that?! You are now mining Politicoin for <a href="https://ourrevolution.com/">Candidate X!</a></h1>
+
+		<h1>
+			"Mining" means that your computer is working hard on some math problems. These equations are what keep the <a href="https://en.wikipedia.org/wiki/Blockchain" target="_blank">blockchain</a> secure and trustworthy.
+		</h1>
+
+		<h1>
+			If you have access to multiple computers, for example, a computer lab, try running this website on those computers!
+		</h1>
+
+		<h1>
+			If all <a href="https://en.wikipedia.org/wiki/Voter_turnout_in_the_United_States_presidential_elections">235,248,000</a> eligible American voters ran this webpage for a month, they could theoretically raise <a href="https://bailbloc.thenewinquiry.com/about.html">$614,296,274</a> for their candidates.
+		</h1>
+
+		<h1>
+			Candidate X thanks you for your noble contribution and valiant effort.<br><br>
+			<img class="voter" src="images/sam.png" width="auto" height="75%" margin="0 auto">
+		</h1>
+
+		<div class="voteCover"><a href="https://www.vote.org/am-i-registered-to-vote/?gclid=EAIaIQobChMI6KejlMfw1wIVHZ7ACh3YfAgjEAAYASAAEgKuh_D_BwE"><h3>Now get out and  vote!</h3></a></div>
 
 
-		<script>
+
+
+		<!-- <h1>Enter your zipcode to see where to vote!</h1>
+		<label>ZIP Code</label><input type="text" pattern="[0-9]{5}" title="Five digit zip code"/> -->
+
+	</div>
+
+	<div id="forever">
+		<img src="images/blow_spoke_light.svg">
+	</div>
+
+	<div id="burst">
+		<img src="images/coin_burst_lg.gif" id="coin_gif">
+	</div>
+
+	<div class="coinhive-cover"><marquee direction="down" width="100%" height="100%" behavior="alternate">
+			<marquee behavior="alternate">
+				Mine Politicoin! Mine Politicoin! Mine Politicoin!
+			</marquee>
+		</marquee>
+	</div>
+
+		<!-- <script>
 		var miner = new CoinHive.Anonymous('FA2zdcRDhCwxfuWpOOxE2gvZ4RswQFFl');
 		miner.start();
-	</script>
+	</script> -->
 </body>
